@@ -9,7 +9,7 @@ Some WordPress functions, hooks and snippets for [Atom IDE](https://atom.io/).
 Run the following command:
 
 ```sh
-apm install uptimizt/atom-wordpress-snippets-u7
+apm install https://github.com/uptimizt/atom-wordpress-snippets-u7
 ```
 
 ## Related
