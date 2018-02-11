@@ -4,4 +4,4 @@
     body: '/**\n * Description functionality.\n *\n * @link https://wordpress.org/ see WordPress\n */\nclass WP_Class\n{\n  public function __construct()\n  {\n\n  }\n}\n'
   'Function for Class with phpDoc':
     prefix: 'function and phpDoc'
-    body: '\n/**\n * Description functionality\n *\n *\n * @param string   $name      Method to call.\n * @param array    $arguments Arguments to pass when calling.\n * @return mixed|bool Return value of the callback, false otherwise.\n */\npublic function function_name( $name, $arguments ) {\n  //Code\n}\n'
+    body: '\n/**\n * Description functionality\n *\n * @param string   $name      Method to call.\n * @param array    $arguments Arguments to pass when calling.\n * @return mixed|bool Return value of the callback, false otherwise.\n */\npublic function function_name( $name, $arguments ) {\n  //Code\n}\n'
