@@ -1,0 +1,7 @@
+".source.php":
+  "wp-plugin-start":
+    prefix: "plugin-wp-start"
+    body: "test text"
+  "wp-class":
+    prefix: "wp-class"
+    body: "test 2"
