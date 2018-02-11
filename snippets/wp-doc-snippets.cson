@@ -1,7 +1,7 @@
 ".text.html":
   'Start Plugin for WordPress':
     prefix: 'plugin-wp-start'
-    body: '<?php\n/*\nPlugin Name: $1\nPlugin URI: ${TM_PLUGIN_BASE}$3\nDescription: $4\nAuthor: ${TM_NAME}\nAuthor URI: ${TM_HOMEPAGE}\nVersion: ${2:0.1}\n'
+    body: '<?php\n/*\nPlugin Name: $1\nPlugin URI: ${TM_PLUGIN_BASE}$3\nDescription: $4\nAuthor: ${TM_NAME}\nAuthor URI: ${TM_HOMEPAGE}\nVersion: ${2:0.1}\n/*\n'
   'Readme.txt for WordPress':
     prefix: 'readme-wp-plugin'
     body: '=== ${1:Plugin Name} ===\nContributors: ${TM_WP_LOGIN}\nDonate link: ${TM_HOMEPAGE}\nTags: ${2:tag, tag}\nRequires at least: ${3:2.5}\nTested up to: ${4:2.8}\nStable tag: ${5:0.1}\n\n${6:Short description}\n\n== Description ==\n\n${7:Short description}\n\n== Installation ==\n\n1. Upload the \\`${8:plugin}\\` folder to the \\`/wp-content/plugins/\\` directory\n1. Activate the plugin through the \'Plugins\' menu in WordPress\n1. $9\n\n== Changelog ==\n\n= $5 =\n* Initial release.'
