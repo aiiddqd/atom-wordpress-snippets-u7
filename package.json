@@ -1,0 +1,22 @@
+{
+  "name": "wordpress-snippets-u7",
+  "version": "1.0.0",
+  "description": "Snippets for WordPress: functions, hooks and etc",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uptimizt/atom-wordpress-snippets-u7.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uptimizt/atom-wordpress-snippets-u7/issues"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "cson": "^3.0.2",
+    "gulp": "^3.9.0",
+    "sprintf-js": "^1.0.3",
+  }
+}

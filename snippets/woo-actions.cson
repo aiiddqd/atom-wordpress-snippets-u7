@@ -1,0 +1,7 @@
+".source.php":
+  "action: woocommerce_after_cart	":
+    prefix: "woocommerce_after_cart	"
+    body: "add_action( \"woocommerce_after_cart	\", ${1:array( $this, \"woocommerce_after_cart	\" )} );"
+  "action: woocommerce_after_cart_contents":
+    prefix: "woocommerce_after_cart_contents"
+    body: "add_action( \"woocommerce_after_cart_contents\", ${1:array( $this, \"woocommerce_after_cart_contents\" )} );"

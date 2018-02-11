@@ -1,0 +1,7 @@
+".source.php":
+  "filter: get_product_search_form":
+    prefix: "get_product_search_form"
+    body: "add_filter( \"get_product_search_form\", ${1:array( $this, \"get_product_search_form\" )} );"
+  "filter: product_cat_class":
+    prefix: "product_cat_class"
+    body: "add_filter( \"product_cat_class\", ${1:array( $this, \"product_cat_class\" )} );"
