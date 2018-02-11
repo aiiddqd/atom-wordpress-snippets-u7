@@ -1,0 +1,5 @@
+".source.php":
+  "action: wp_footer":
+    prefix: "wp_footer - action"
+    body: "add_action( \"wp_footer\", ${1:array( $this, \"wp_footer\" )} );"
+  
