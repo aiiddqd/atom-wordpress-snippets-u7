@@ -1,0 +1,4 @@
+".source.php":
+  "function: site_url()":
+    prefix: "site_url( $path, $scheme )"
+    body: "site_url( $path, $scheme )"
