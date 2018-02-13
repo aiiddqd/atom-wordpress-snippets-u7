@@ -2,4 +2,7 @@
   "action: wp_footer":
     prefix: "wp_footer - action"
     body: "add_action( \"wp_footer\", ${1:array( $this, \"wp_footer\" )} );"
-  
+  "action: wp_enqueue_scripts":
+    prefix: "wp_enqueue_scripts - action"
+    body: "add_action( \"wp_enqueue_scripts\", ${1:array( $this, \"wp_enqueue_scripts\" )} );"
+ 
