@@ -1,6 +1,6 @@
 {
   "name": "wordpress-snippets-u7",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "description": "Snippets for WordPress: functions, hooks and etc",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

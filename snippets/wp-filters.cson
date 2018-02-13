@@ -1,0 +1,7 @@
+".source.php":
+  "filter: script_loader_tag":
+    prefix: "script_loader_tag - filter"
+    body: "add_filter( \"script_loader_tag\", ${1:array( $this, \"wp_footer\" )} );"
+  "filter: the_content":
+    prefix: "the_content - filter"
+    body: "add_filter( \"the_content\", ${1:array( $this, \"the_content\" )}, 10, 2 );"
