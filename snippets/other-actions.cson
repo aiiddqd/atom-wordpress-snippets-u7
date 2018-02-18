@@ -1,0 +1,4 @@
+".source.php":
+  "action: logger U7":
+    prefix: "cl - action"
+    body: "do_action( 'cl', ${1:array( 'tag1', 'test1' )} );"
