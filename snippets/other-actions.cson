@@ -2,3 +2,7 @@
   "action: logger U7":
     prefix: "cl - logger u7 - action"
     body: "do_action( 'cl', ${1:array( 'tag1', 'test1' )} );"
+
+  "action: logger U7 - long":
+    prefix: "logger u7 - action - long"
+    body: "do_action( 'logger_u7', ${1:array( 'tag1', 'test1' )} );"
