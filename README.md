@@ -15,3 +15,4 @@ apm install https://github.com/uptimizt/atom-wordpress-snippets-u7
 ## Related
 
 * https://github.com/uptimizt/atom-wordpress-snippets-u7
+* https://github.com/uptimizt/atom-woocommerce-snippets-u7 - recommendation
