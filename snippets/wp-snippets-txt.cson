@@ -6,11 +6,10 @@
       <?php
       /*
       * Plugin Name: $1
-      * Plugin URI: ${TM_PLUGIN_BASE}$3
-      * Description: $4
+      * Description: $2
       * Author: ${TM_NAME}
       * Author URI: ${TM_HOMEPAGE}
-      * Version: ${2:0.1}
+      * Version: 0.1
       */
     """
 
