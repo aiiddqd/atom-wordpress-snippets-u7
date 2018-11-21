@@ -1,20 +1,11 @@
 ".source.php":
-  'Class WP':
-    prefix: 'class-start-wp typical'
-    body: '/**\n * Description functionality.\n *\n * @link https://wordpress.org/ see WordPress\n */\nclass WP_Class\n{\n  public function __construct()\n  {\n\n  }\n}\n'
 
-  'Function for Class with phpDoc':
-    prefix: 'function and phpDoc'
-    body: '\n/**\n * Description functionality\n *\n * @param string   $name      Method to call.\n * @param array    $arguments Arguments to pass when calling.\n * @return mixed|bool Return value of the callback, false otherwise.\n */\npublic function function_name( $name, $arguments ) {\n  //Code\n}\n'
-
-
-  'Class for WordPress':
+  'Class as static for WordPress':
     prefix: 'class-start-wp static'
     body: """
-      /*
-      * Description class $1
-      */
-
+      /**
+       * Description class $1
+       */
       class WP_Class_Static {
 
         public static function init(){
@@ -24,14 +15,24 @@
       }
     """
 
-  'function for static class in WordPress':
-    prefix: 'function for static class by WP-way'
+  'Function for static class in WordPress':
+    prefix: 'function for static class - WPCS'
     body: """
-      /*
-      * Description function $1
-      */
-
+      /**
+       * Description function $1
+       */
       public static function name_function(){
+        // code
+      }
+    """
+
+  'Function for static class in PHP':
+    prefix: 'function for static class - PSR'
+    body: """
+      /**
+       * Description function $1
+       */
+      public static function nameFunction(){
         // code
       }
     """
