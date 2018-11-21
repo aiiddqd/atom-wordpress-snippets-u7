@@ -13,26 +13,29 @@
         }
 
       }
+
     """
 
   'Function for static class in WordPress':
     prefix: 'function for static class - WPCS'
     body: """
       /**
-       * Description function $1
+       * Description
        */
       public static function name_function(){
-        // code
+        // code $1
       }
+
     """
 
   'Function for static class in PHP':
     prefix: 'function for static class - PSR'
     body: """
       /**
-       * Description function $1
+       * Description
        */
       public static function nameFunction(){
-        // code
+        // code $1
       }
+
     """
