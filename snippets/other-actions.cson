@@ -6,3 +6,13 @@
   "action: logger U7 - long":
     prefix: "logger u7 - action - long"
     body: "do_action( 'logger_u7', ${1:array( 'tag1', 'test1' )} );"
+
+# QueryMonitor
+
+  "action: QueryMonitor - debug":
+    prefix: "qm/debug - do_action - logger"
+    body: "do_action('qm/debug', '1');"
+
+  "action: QueryMonitor - error":
+    prefix: "qm/error - do_action - error log"
+    body: "do_action('qm/error', '1');"
